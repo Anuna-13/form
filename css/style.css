@@ -1,0 +1,110 @@
+body {
+	background-color: #FFFFFF;
+}
+.logo2 {	
+	width: 122px;
+	height: 95.04px;
+	margin-left: 10px;
+	position: absolute;
+ }
+.container{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 999999999;
+	background-color:  #FFFFFF;
+}
+
+.nav-ul {
+	display: flex;
+	/*justify-content: space-around;*/
+}
+.nav-li {
+	padding-top: 50px;
+	font-size: 25px;
+	position: relative;
+}
+.nav-a {
+	color: #707070;
+	font-family: 'Fredoka One';
+}
+
+.conback {
+	display: flex;
+	margin-top: 20px;
+}
+.box {
+	display: flex;
+}
+.coninfo {
+	padding-right: 20px;
+}
+.coninfo:hover {
+	transform: scale(1.5 , 1.5)
+}
+textarea {
+	resize: none;
+	width: 731.42px;
+	height: 112.62px;
+	width: 100%;
+	border: none;
+	border-bottom: 2px solid blue;
+}
+input[text=password]{
+
+}
+.form-wraper {
+	width: 600px;
+	margin-left: 50px;
+}
+.input-wraper {
+	width: 100%;
+	border: none;
+	border-bottom: 2px solid blue;
+	color: red;
+	font-size: 22px;
+}
+.input-wraper::placeholder {
+	color: yellow;
+	font-size: 18px;
+}
+.input-wraper:focus,
+.textarea-wraper:focus {
+	outline: none;
+}
+.btn {
+	border: none;
+	background-color: blue;
+}
+.video-wraper {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.box1 {
+	background-color: blue;
+	width: 300px;
+	height: 300px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+.box2 {
+	background-color: yellow;
+	width: 300px;
+	height: 300px;
+}
+.box3 {
+	background-color: red;
+	width: 300px;
+	height: 300px;
+}
+.serach {
+	width: 25.5px;
+	height: 25.5px;
+}
+.map {
+	width: 1640px;
+	height: 608px;
+}
