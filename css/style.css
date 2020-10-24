@@ -1,5 +1,5 @@
 body {
-	background-color: #FFFFFF;
+	/*background-color: #FFFFFF;
 	/*display: flex;*/
 	/*justify-content: center;*/
 	padding-top: 150px;
@@ -65,9 +65,7 @@ textarea {
 	border-style: groove;
 	margin-top: 11.9px;
 }
-input[text=password]{
 
-}
 .form-wraper {
 	width: 730.26px;
 	margin-left: 228.60px;
@@ -127,9 +125,25 @@ label {
 	margin-bottom: 11.9px;
 	font-size: 23px;
 }
-footer {
-	background color: #2E2E2E;
-}
+
 .box {
-	
+	background-color: #2E2E2E;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 207px;
+}
+.contac-box{
+	color: white;
+	font-size: 13px;
+}
+.contact-address {
+	color: white;
+	font-size: 13px;
+}
+.footerlogo {
+	margin-top: 30px;
+}
+h4 {
+	font-size: 20px;
 }
