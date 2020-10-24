@@ -28,8 +28,8 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	/*max-width: 1170px;
-	width: 100%;*/
+	/*max-width: 1170px;*/
+	width: 100%;
 }
 /*.navigation {
 	display: flex;
@@ -118,10 +118,10 @@ textarea {
 	width: 25.5px;
 	height: 25.5px;
 }
-.map {
+/*.map {
 	width: 1640px;
 	height: 608px;
-}
+}*/
 label {
 	margin-left: 35px;
 	margin-bottom: 11.9px;
