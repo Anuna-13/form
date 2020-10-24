@@ -28,8 +28,8 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	max-width: 1170px;
-	width: 100%;
+	/*max-width: 1170px;
+	width: 100%;*/
 }
 /*.navigation {
 	display: flex;
