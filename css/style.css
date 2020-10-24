@@ -7,7 +7,8 @@ body {
 .logo2 {	
 	width: 122px;
 	height: 95.04px;
-	margin-left: 10px;
+	margin-top: 15px;
+	/*margin-left: 10px;*/
 	/*position: absolute;*/
  }
 .container{
@@ -40,12 +41,13 @@ body {
 }*/
 .nav-ul {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-end;
 	/*flex-direction: row;*/
 	/*justify-content: flex-end;*/
 }
 .nav-li {
-	/*padding-top: 50px;*/
+	/*padding-right: 53px;*/
+	margin-left: 90px;
 	font-size: 20px;
 	/*position: relative;*/
 }
@@ -124,4 +126,10 @@ label {
 	margin-left: 35px;
 	margin-bottom: 11.9px;
 	font-size: 23px;
+}
+footer {
+	background color: #2E2E2E;
+}
+.box {
+	
 }
